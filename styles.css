@@ -1,0 +1,83 @@
+/* Estiliza o fundo da página */
+body {
+    background: linear-gradient(to bottom, #FF7F00, #FF7F00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container centralizado */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Card branco no centro */
+.card {
+    background: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Título colorido */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.orange { color: #FF7F00; }
+.purple { color: #6A5ACD; }
+
+/* Campos de entrada */
+.input {
+    width: 90%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+/* Botões */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    flex: 1;
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.orange-button {
+    background: linear-gradient(to right, #FF7F00, #FFD700);
+}
+
+/* Botão 'Entrar sem cadastro' */
+.link-button {
+    background: white;
+    color: black;
+    padding: 8px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
